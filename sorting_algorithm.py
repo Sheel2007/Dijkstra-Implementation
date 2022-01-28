@@ -1,11 +1,10 @@
 
 def bubble(s):
-        indexing_length = len(s) - 1
         sorted = False
 
         while not sorted:
             sorted = True
-            for i in range(0, indexing_length):
+            for i in range(0, len(s) - 1):
                 if s[i] > s[i + 1]:
                     sorted = False
                     s[i], s[i + 1] = s[i + 1], s[i]
