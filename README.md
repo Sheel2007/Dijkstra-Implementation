@@ -23,7 +23,7 @@ python ai_pathfinding.py
 
 The program will begin from the end point and calculate backward the shortest possible moves to reach the start point. As it goes from node to node the tiles will turn from white to gray, which indicates the program has accounted for that node. Once it is finished, the program will draw the path from the start node to the end node.
 
-<img src="images/preview.png" alt="Preview Image" width="800"/>
+<img src="images/preview.png" alt="Preview Image" width="400"/>
 
 ## Customization 
 
